@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+
+#menu ul {
+  list-style:none;
+  padding: 1px;
+  margin: 80px;
+  display: flex;
+  background-color: #00490a83;
+  justify-content: center;
+}
+
+#menu li {
+  margin: 0px;
+}
+
+#menu a {
+  display: block;
+  padding: 30px 30px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: arial;
+}
+
+#menu a:hover {
+  background-color: #fff;
+  color: #0883798c;
+  border-radius: 5px;
+}
+
+
+p{
+	text-align: center;
+	text-indent: 10x;
+	color: rgb(0, 0, 0);
+	margin: 80px;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+}
+
+h1{
+	text-align: center;
+	color: #003811;
+    font-size: 50px;
+}
+
+h2{
+	text-align: left;
+	color: #000000;
+	font-size: 17px;
+	display: flex;
+	justify-content: center;
+	
+
+}
+
+h3{
+	text-align: center;
+	color: #003811;
+	font-size: 25px;
+}
+
+h4{
+	text-align: center;
+	color: black;
+}
+
+h5{
+	text-align: center;
+	color: rgb(255, 0, 0)(255, 255, 255);
+	font-size: 15px;
+}
+
+/* configura a cor de um link antes de ser clicado */
+
+a{
+	color: black;
+}
+
+/* configura a cor de um link depois de ser clicado */
+
+a:visited{
+	color: rgb(0, 0, 0);
+}
+
+ol{
+	color: pink;
+}
+
+ul{
+	color: yellow;
+}
+
+img{
+	width: 300px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border: 2px solid rgb(0, 0, 0);
+	margin: 20px;
+}
+.container {
+	display: flex;
+	align-items: center;
+	gap: 20px; /* Espaço entre o parágrafo e a imagem */
+  }
